@@ -1,0 +1,7 @@
+#commands to push file on github
+
+1.git init
+2.git commit -m "txt"
+3.git remote add origin https://github.com/sumitj45/react.git
+4. git push --set-upstream origin master
+
