@@ -46,3 +46,41 @@ console.log(car);
 4.Nowadays how data is transferred between server and client?(explain about json)
 
 JSON (JavaScript Object Notation) is a lightweight data-interchange format used to transfer data between a server and a client. It is an open standard format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs. It is used primarily to transmit data between a server and web application, as an alternative to XML. JSON is also used for exchanging data between different types of applications, such as web, mobile, and desktop applications. JSON syntax is relatively easy to learn and its structure is simple, making it a popular choice for data transfer.
+------------------------------------------------------------
+5.write program to show how to append, pop and sort elements in array in javascript.
+
+//Append elements in array
+
+var array = ["apple", "mango", "banana"];
+
+// adding elements to the array
+array.push("strawberry"); 
+
+//Pop elements in array
+array.pop(); 
+
+//Sort elements in array
+array.sort();
+---------------------------------------
+6. why should we use let in place of var in our javascript programs?
+ans-
+Let offers improved readability, better block scoping, and more concise syntax compared to var. Let also allows us to create variables that are limited to only the block they are declared in, while var variables are declared in the global scope and can be accessed anywhere. 
+This means that let variables are less prone to accidental overwriting and are more secure.
+
+7. explain about all the primitive data types in javascript
+
+Primitive data types in JavaScript are the basic data types that are used to construct all other data types. They include:
+
+1. Number: A numeric value.
+
+2. String: A sequence of characters.
+
+3. Boolean: A logical value that is either true or false.
+
+4. Null: An empty value.
+
+5. Undefined: A value that has not been defined.
+
+6. Symbol: A unique identifier.
+
+These primitive data types are the building blocks of all other data types, including objects, arrays, and functions.
