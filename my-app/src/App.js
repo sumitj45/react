@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React,{useState} from 'react';
 import './App.css';
+import Product from './components/product';
+
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container text-center">
+
+     <h1>Products</h1>
+     <hr/>
+
+     <Product name="Hp Laptop"description="A good budget laptop" price={100}/>
+     <hr/>
+     <Product name="Bluetooth Speaker" description="Very good base and sound" price={40}/>
+     <hr/>
+     <Product name="google Mini" description="a Way to the new gen" price={69}/>
+  
     </div>
   );
 }
